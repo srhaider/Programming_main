@@ -1,17 +1,35 @@
 #!/usr/bin/python
 #Filename : FirstPython_Script.py 
-import sys
 
-if __name__ == '__main__':
-	'''Hello 1st line
-	Hello 2nd line'''
-	for i in sys.argv:
-		print i
-	'''Ye Kya ho 
-	raha hai bhai'''
+import os
+import time
 
+a=time.strftime("%Y_%M_%D")
+
+print a	
+
+'''from ./ABC/MaxNo import FindMaxNo, Max
+
+print "The Command Line argument:"
+FindMaxNo(12,15)
+print Max
+
+
+'''
+
+
+''' Doc String
+def main():
+		Hello 1st line Hello 2nd line
+		for i in sys.argv:
+			print i
+			Ye Kya ho 
+			raha hai bhai
 	
 print main.__doc__
+'''
+
+
 
 '''
 For Loo Decrement
