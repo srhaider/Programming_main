@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AllocatedBuffer	BufferAllocation.c	/^static char AllocatedBuffer[BUFFERSIZE];$/;"	v	file:
+BUFFERSIZE	BufferAllocation.c	3;"	d	file:
+MAXLINE	Qsort.c	4;"	d	file:
+TAG	Temp1.c	3;"	d	file:
+allocSize	BufferAllocation.c	/^static char *allocSize=AllocatedBuffer;$/;"	v	file:
+enum	Temp1.c	4;"	d	file:
+febonaci	FebonaciRecursion.c	/^int febonaci(int c)$/;"	f
+lineptr	Qsort.c	/^char *lineptr[MAXLINE];$/;"	v
+main	BufferAllocation.c	/^int main()$/;"	f
+main	FebonaciRecursion.c	/^int main()$/;"	f
+main	Qsort.c	/^int main(int argc, char *argv[])$/;"	f
+main	ReverseSeries.c	/^int main()$/;"	f
+main	Temp1.c	/^int main(int argc, char *argv[])$/;"	f
+occupieSize	BufferAllocation.c	/^	void occupieSize(int a)$/;"	f
+printReverse	ReverseSeries.c	/^int printReverse(int a)$/;"	f
